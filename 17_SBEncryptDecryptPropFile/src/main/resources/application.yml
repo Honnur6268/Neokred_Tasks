@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sakila
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ENC(wt5wUSESLVUCNBKGui/gLA==)
+    password: ENC(972SKP+JF9Q8WhOQosTzWTAwk9Vg5ZT+)
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
+secret_key: neokred
