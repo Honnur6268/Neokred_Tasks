@@ -1,0 +1,14 @@
+secretKey: neokred
+IV: tech
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/customerdb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Honnu@6268
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
