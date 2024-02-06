@@ -1,12 +1,12 @@
-secretKey: neokred
-IV: tech
+secretKey: your_secretKey
+IV: your_custom_IV
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/customerdb
+    url: jdbc:mysql://localhost:3306/your_db_name
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: Honnu@6268
+    username: your_root_name
+    password: your_root_password
     
   jpa:
     hibernate:
