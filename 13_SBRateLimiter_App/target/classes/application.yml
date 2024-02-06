@@ -1,0 +1,18 @@
+resilience4j:
+  ratelimiter:
+    instances:
+      order-service:
+        limit-for-period: 1
+        limit-refresh-period: 4s
+        timeout-duration: 10s
+        register-health-indicator: true
+        event-consumer-buffer-size: 100
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always  
