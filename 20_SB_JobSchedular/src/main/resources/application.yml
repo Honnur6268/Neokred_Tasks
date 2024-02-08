@@ -1,0 +1,30 @@
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 5
+        
+  data:
+    mongodb:
+#      uri: mongodb://localhost:27017/EmployeeManagementSystem
+      host: localhost
+      port: 27017
+      database: EmployeeManagementSystem
+      
+      
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: honnurcse.rymec@gmail.com
+    password: naux bfin ytke qvsb
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+cron:
+  schedule: '0 23 12 7 * *'
+  
