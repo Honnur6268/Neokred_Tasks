@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/emsvalidation
+    username: root
+    password: Honnu@6268
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
